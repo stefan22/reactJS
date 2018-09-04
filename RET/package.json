@@ -15,7 +15,8 @@
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1"
+    "babel-preset-stage-2": "^6.24.1",
+    "react-hot-loader": "^4.3.6"
   },
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
