@@ -1,13 +1,10 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { SkiDayCount } from './components/SkiDayCount'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-window.React = React
+const title = 'React Webpack Babel Setup';
 
-render(
-	<SkiDayCount total={50}
-				 powder={20}
-				 backcountry={10}
-				 goal={100}/>,
-	document.getElementById('react-container')
-)
+ReactDOM.render(
+  <div>{title}</div>,
+  document.getElementById('app')
+);
+

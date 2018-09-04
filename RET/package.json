@@ -1,31 +1,27 @@
 {
-  "name": "react-essential",
+  "name": "ret",
   "version": "1.0.0",
-  "description": "A project focusing on React and related tools",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server"
-  },
-  "author": "SL",
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer-loader": "^3.2.0",
-    "babel-cli": "^6.18.0",
-    "babel-loader": "^6.2.5",
-    "babel-preset-latest": "^6.16.0",
-    "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-0": "^6.16.0",
-    "css-loader": "^0.25.0",
-    "json-loader": "^0.5.4",
-    "node-sass": "^3.10.1",
-    "sass-loader": "^4.0.2",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.3",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.7"
   },
-  "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-icons": "^2.2.1"
-  }
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sl",
+  "license": "MIT"
 }
